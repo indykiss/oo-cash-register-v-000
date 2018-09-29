@@ -10,7 +10,7 @@ class CashRegister
     
   def total(item, price) 
     self.total = price
-    
+    return price
   end 
   
   
