@@ -4,13 +4,13 @@ class CashRegister
   def initialize(discount=0)
     @total = 0
     @discount = discount
-    @items = []
+    @arr_items = []
   end
 
   def add_item(item, amount, quantity=1)
     self.total += amount * quantity
     quantity.times do
-      items << item
+      arr_items << item
     end
     self.last_transaction = amount * quantity
   end
