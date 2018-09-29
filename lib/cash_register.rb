@@ -9,7 +9,7 @@ class CashRegister
   end 
     
   def total(item, ) 
-    
+    self.total = 
     
   end 
   
