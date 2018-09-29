@@ -9,7 +9,7 @@ class CashRegister
   end 
     
   def total 
-    
+    return total
   end 
   
   
